@@ -27,7 +27,7 @@ const sql = require("sqlite");
  const pretty = require('pretty-ms') 
 ,ti={}  
 ,spee={};
- const prefix = "*";
+ const prefix = "¿";
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
@@ -266,7 +266,7 @@ message.author.sendEmbed(embed)
 
 client.on('ready', function(){
     var ms = 10000 ;
-    var setGame = ['Clan ADB','ADB THE BEST'];
+    var setGame = ['Clan xz','Xz THE BEST'];
     var i = -1;
     var j = 0;
     setInterval(function (){
